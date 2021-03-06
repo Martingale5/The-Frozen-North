@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact me</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+    <!--HEADER-->
+    <div class="header">
+        <!--HEADER'S CONTENT-->
+        <div
+            style=" text-align:center; position:absolute; right:20px; top:20px; Z-index:1; width:450px; height:150px; color:#FFFFFF ">
+            <h1>The Frozen North Tribute Website</h1>
+            <p>All you need to know about this extraordinary movie</p>
+        </div>
+        <!--LOGO-->
+        <div class="logo" onclick="window.location.href='Home.html'">
+        </div>
+    </div>
+    <!--NAVIGATION BAR-->
+    <div class="Menu">
+        <a href="Home.html">Home</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="Rating.html">Ratings</a>
+        <a href="Watchit.html">Watch it</a>
+        <a class="active" href="ContactUs.html">Contact</a>
+            
+    </div>
+
+    <!--CONTENT-->
+    <div style="padding-top: 25px;">
+        <h2>I'd love to hear your feedback !</h2>
+    </div>
+    <div class="Contact_me_form">
+
+        <form action="mailto:davuror@outlook.es?subject=New Website Feedback!" method="post" enctype="text/plain">
+            Name and surname:<br>
+            <input placeholder="Your name and surname here.." type="text" name="Name" id ="MyInput"><br>
+            E-mail:<br>
+            <input placeholder="Your E-mail here.." type="text" name="e-mail" id ="MyInput"><br>
+
+            <p>Please rate the Website:</p>
+            <input type="radio" name="Website Rate" value="Excelent">
+            <label> Excellent</label><br>
+            <input type="radio" name="Website Rate" value="Good">
+            <label> Good</label><br>
+            <input type="radio" name="Website Rate" value="Medium">
+            <label> Medium</label><br>
+            <input type="radio" name="Website Rate" value="Bad">
+            <label> Bad</label><br>
+            <input type="radio" name="Website Rate" value="Very Bad">
+            <label>Very Bad</label><br>
+
+            <p></p>
+            Your comment:<br>
+            <textarea placeholder="Your comment here.." rows="5" name="Comment" id="MyTextArea"></textarea>
+            <p></p>
+            <input type="submit" value="Send Feedback">
+
+        </form>
+    </div>
+
+    <!--FOOTER-->
+  <div class="myfooter">
+    <p> STU87838 | Copyright &copy; 2021 | <a id ="Sitemap" 
+      href="sitemap.html">Sitemap</p>
+</div>
+
+</body>
+
+</html>
