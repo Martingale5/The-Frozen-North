@@ -89,7 +89,7 @@ td {
 th {
     /*border: 2px solid black;*/
     text-align: center;
-    background:linear-gradient(rgb(3, 20, 253), rgb(3, 87, 184));
+    background:linear-gradient(rgb(119, 1, 139), rgb(118, 3, 184));
     color:rgb(255, 255, 255);
     padding: 10px;
 }
